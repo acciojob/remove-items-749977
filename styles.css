@@ -1,1 +1,16 @@
-/*  your css code here. If applicable */
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+select, input {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
